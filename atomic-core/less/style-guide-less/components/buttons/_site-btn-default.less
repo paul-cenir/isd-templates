@@ -1,0 +1,27 @@
+.site-btn-default {
+    color: @brandDefaultBtnTxtColor;
+    background-color: @brandDefaultBtnBgColor;
+    border-color: @brandDefaultBtnBorderColor;
+    &:hover,
+    &:focus,
+    &:active,
+    &:active:hover,
+    &:active:focus {
+        outline: none;
+        color: @brandDefaultBtnHoverTxtColor;
+        background-color: @brandDefaultBtnHoverBgColor;
+        border-color: @brandDefaultBtnHoverBorderColor;
+    }
+    &:disabled {
+        color: @brandDefaultDisabledBtnTxtColor;
+        background-color: @brandDefaultDisabledBtnBgColor;
+        border-color: @brandDefaultDisabledBtnBorderColor;
+        &:hover,
+        &:focus {
+            outline: none;
+            color: @brandDefaultDisabledBtnHoverTxtColor;
+            background-color: @brandDefaultDisabledBtnHoverBgColor;
+            border-color: @brandDefaultDisabledBtnHoverBorderColor;
+        }
+    }
+}

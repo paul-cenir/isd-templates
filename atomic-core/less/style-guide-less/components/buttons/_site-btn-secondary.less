@@ -1,0 +1,27 @@
+.site-btn-secondary {
+    color: @brandSecondaryBtnTxtColor;
+    background-color: @brandSecondaryBtnBgColor;
+    border: 1px solid @brandSecondaryBtnBorderColor;
+    &:hover,
+    &:focus,
+    &:active,
+    &:active:hover,
+    &:active:focus {
+        outline: none;
+        color: @brandSecondaryBtnHoverTxtColor;
+        background-color: @brandSecondaryBtnHoverBgColor;
+        border-color: @brandSecondaryBtnHoverBorderColor;
+    }
+    &:disabled {
+        color: @brandSecondaryDisabledBtnTxtColor;
+        background-color: @brandSecondaryDisabledBtnBgColor;
+        border-color: @brandSecondaryDisabledBtnBorderColor;
+        &:hover,
+        &:focus {
+            outline: none;
+            color: @brandSecondaryDisabledBtnHoverTxtColor;
+            background-color: @brandSecondaryDisabledBtnHoverBgColor;
+            border-color: @brandSecondaryDisabledBtnHoverBorderColor;
+        }
+    }
+}

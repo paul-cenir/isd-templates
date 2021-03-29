@@ -1,0 +1,120 @@
+[class*='nb-'] {
+  position: relative;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+[class*='nb-']:last-of-type {
+  margin-right: 0;
+}
+.nb-1 {
+  width: 8.33333333%;
+  float: left;
+}
+.nb-2 {
+  width: 16.66666667%;
+  float: left;
+}
+.nb-3 {
+  width: 25%;
+  float: left;
+}
+.nb-4 {
+  width: 33.33333333%;
+  float: left;
+}
+.nb-5 {
+  width: 41.66666667%;
+  float: left;
+}
+.nb-6 {
+  width: 50%;
+  float: left;
+}
+.nb-7 {
+  width: 58.33333333%;
+  float: left;
+}
+.nb-8 {
+  width: 66.66666667%;
+  float: left;
+}
+.nb-9 {
+  width: 75%;
+  float: left;
+}
+.nb-10 {
+  width: 83.33333333%;
+  float: left;
+}
+.nb-11 {
+  width: 91.66666667%;
+  float: left;
+}
+.nb-12 {
+  width: 100%;
+  float: left;
+}
+.grid-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*@include col(@six);*/
+/* ===================== Background ======================== */
+/* ===================== HEADING Colors ======================== */
+/* ===================== TEXT Colors ======================== */
+/* ===================== PARAGRAPH Colors ======================== */
+/* ===================== LINK Colors ======================== */
+/* ===================== ICON Colors ======================== */
+/* ===================== TOOLTIP Colors ======================== */
+/* ===================== ALERTS Colors ======================== */
+/* ===================== BUTTONS Colors ======================== */
+/* ===================== BANNER Colors ======================== */
+/* ===================== MODAL colors ======================== */
+/* ===================== BORDER Colors ======================== */
+/* ===================== TEXT INPUT Colors ======================== */
+/* ===================== RADIO INPUT Colors ======================== */
+/* ===================== CHECKBOX INPUT Colors ======================== */
+/* ===================== DROPDOWN INPUT Colors ======================== */
+/* ===================== Pagination Colors ======================== */
+/* ===================== Heading Font Sizes ======================== */
+/* ===================== Text Font Sizes ======================== */
+/* ===================== Box Shadow ======================== */
+/* ===================== Font Families ======================== */
+/* ===================== MOBILE BREAKPOINT VARIABLES ======================== */
+/* ===================== Brand Colors ======================== */
+/* ===================== Ui Colors ======================== */
+/* ===================== Color Scheme ======================== */
+/* ===================== Style Guidline Site  ======================== */
+.showHide {
+  display: none;
+}
+.showHide .formInput,
+.showHide .formInputGroup {
+  margin-bottom: 0;
+}
+.showHide textarea.formInput {
+  margin-bottom: 12px;
+}
+.aa_label.js-showHide-trigger {
+  margin-bottom: 24px;
+  position: relative;
+  top: 12px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: font-size 0.25s;
+}
+.aa_label.js-showHide-trigger .fa-plus {
+  transform: rotate(0deg);
+  transition: all 0.25s;
+}
+.aa_label.js-showHide-trigger .fa-plus-is-rotated {
+  transform: rotate(45deg);
+}
+.aa_label-is-closed {
+  font-size: 12px !important;
+}
+.aa_label-is-open {
+  font-size: 20px !important;
+}

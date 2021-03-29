@@ -1,0 +1,13 @@
+/* less/global/_footer.less */
+.global-site-footer-container {
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+  background: #3D4A57;
+}
+.global-site-footer-container a {
+  color: #BEBEBE;
+  font-family: "Roboto Condensed", sans-serif;
+  text-decoration: none;
+  font-size: 14px;
+}

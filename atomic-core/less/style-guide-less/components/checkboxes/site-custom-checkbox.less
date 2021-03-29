@@ -1,0 +1,68 @@
+.site-custom-checkbox {
+    &.checkbox-label-wrapper {
+        display: block;
+        position: relative;
+        cursor: pointer;
+        font-weight: normal;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+            &:checked ~ .checkbox-icon-override {
+                background-color: @brandPrimaryCheckboxActiveBgColor;
+                border: 1px solid @brandPrimaryCheckboxActiveBorderColor;
+                &:after {
+                    color: @brandPrimaryCheckboxActiveCheckColor;
+                }
+            }
+
+            &:disabled ~ .checkbox-icon-override {
+                background: #f0eeee;
+            }
+        }
+        .checkbox-icon-override {
+            .width-height(16px, 16px);
+            background-color: @brandPrimaryCheckboxBgColor;
+            border: 1px solid @brandPrimaryCheckboxBorderColor;
+            border-radius: 0;
+            top: 0;
+            z-index: 0;
+            position: absolute;
+            cursor: pointer;
+            display: inline-block;
+            line-height: 25px;
+            font-size: 1rem;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -khtml-user-select: none;
+            -ms-user-select: none;
+            margin-right: 10px;
+            margin-bottom: 0;
+            vertical-align: bottom;
+            &:after {
+                position: absolute;
+                content: '';
+                background-image: url('../../img/icons/checkmark-white.svg');
+                left: 3px;
+                top: 2px;
+                height: 8.17px;
+                width: 9.5px;
+                color: transparent;
+                font-size: 10px;
+                transition: color .2s;
+                line-height: 1;
+            }
+        }
+        .checkbox-label {
+            color: @brandPrimaryCheckboxLabelTxtColor;
+            padding-left: 24px;
+            line-height: 17px;
+            vertical-align: top;
+        }
+    }
+
+}

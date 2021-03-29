@@ -1,0 +1,397 @@
+/* ===================== Style Guidline Site ======================== */
+/* ===================== Background ======================== */
+/* ===================== Text Font Sizes ======================== */
+/* ===================== HEADING Colors ======================== */
+/* ===================== TEXT Colors ======================== */
+/* ===================== TEXT INPUT Colors ======================== */
+/* ===================== Style Guidline Site  ======================== */
+/* ===================== PARAGRAPH Colors ======================== */
+/* ===================== LINK Colors ======================== */
+/* ===================== ICON Colors ======================== */
+/* ===================== Style Guidline Border Color ======================== */
+/* ===================== Style Guidline Border Color ======================== */
+/* ===================== Style Guidline Color ======================== */
+/* ===================== Heading Font Sizes ======================== */
+/* ===================== Heading Font Sizes ======================== */
+/* ===================== Brand Colors ======================== */
+/* ===================== Ui Colors ======================== */
+/* ===================== Color Scheme ======================== */
+.page-color-container .comp-color-container .color-list-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.page-color-container .comp-color-container .color-box {
+  width: 25%;
+}
+.page-color-container .comp-color-container .brand-box {
+  border-bottom: solid 4px #DDDDDD;
+  margin-bottom: 12px;
+}
+.page-color-container .comp-color-container .upper-box-up-main {
+  width: 80%;
+  height: 100px;
+  background: #32BCF1;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  border: 1px solid #DDDDDD;
+  margin-right: 20px;
+}
+.page-color-container .comp-color-container .upper-box-up-main label {
+  font-size: 14px;
+  color: #ffffff;
+}
+.page-color-container .comp-color-container .upper-box-up-main .color-text-tertiary {
+  color: #000000;
+}
+.page-color-container .comp-color-container .upper-box-up-second {
+  width: 80%;
+  height: 100px;
+  background: #C30075;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  border: 1px solid #DDDDDD;
+  margin-right: 20px;
+}
+.page-color-container .comp-color-container .upper-box-up-second label {
+  font-size: 14px;
+  color: #ffffff;
+}
+.page-color-container .comp-color-container .upper-box-up-second .color-text-tertiary {
+  color: #000000;
+}
+.page-color-container .comp-color-container .upper-box-up-dark {
+  width: 80%;
+  height: 100px;
+  background: #F5DF03;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  border: 1px solid #DDDDDD;
+  margin-right: 20px;
+}
+.page-color-container .comp-color-container .upper-box-up-dark label {
+  font-size: 14px;
+  color: #ffffff;
+}
+.page-color-container .comp-color-container .upper-box-up-dark .color-text-tertiary {
+  color: #000000;
+}
+.page-color-container .comp-color-container .upper-box-up-dark label {
+  color: #333333;
+}
+.page-color-container .comp-color-container .upper-box-up-light {
+  width: 80%;
+  height: 100px;
+  background: #1A1A1A;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  border: 1px solid #DDDDDD;
+  margin-right: 20px;
+}
+.page-color-container .comp-color-container .upper-box-up-light label {
+  font-size: 14px;
+  color: #ffffff;
+}
+.page-color-container .comp-color-container .upper-box-up-light .color-text-tertiary {
+  color: #000000;
+}
+.page-color-container .comp-color-container .upper-box-ui-primary {
+  width: 80%;
+  height: 100px;
+  background: #135FA7;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  border: 1px solid #DDDDDD;
+  margin-right: 20px;
+}
+.page-color-container .comp-color-container .upper-box-ui-primary label {
+  font-size: 14px;
+  color: #ffffff;
+}
+.page-color-container .comp-color-container .upper-box-ui-primary .color-text-tertiary {
+  color: #000000;
+}
+.page-color-container .comp-color-container .upper-box-ui-secondary {
+  width: 80%;
+  height: 100px;
+  background: #F8F136;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  border: 1px solid #DDDDDD;
+  margin-right: 20px;
+}
+.page-color-container .comp-color-container .upper-box-ui-secondary label {
+  font-size: 14px;
+  color: #ffffff;
+}
+.page-color-container .comp-color-container .upper-box-ui-secondary .color-text-tertiary {
+  color: #000000;
+}
+.page-color-container .comp-color-container .upper-box-ui-error {
+  width: 80%;
+  height: 100px;
+  background: #C30075;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  border: 1px solid #DDDDDD;
+  margin-right: 20px;
+}
+.page-color-container .comp-color-container .upper-box-ui-error label {
+  font-size: 14px;
+  color: #ffffff;
+}
+.page-color-container .comp-color-container .upper-box-ui-error .color-text-tertiary {
+  color: #000000;
+}
+.page-color-container .comp-color-container .upper-box-ui-auxilary {
+  width: 80%;
+  height: 100px;
+  background: #1BB91F;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  border: 1px solid #DDDDDD;
+  margin-right: 20px;
+}
+.page-color-container .comp-color-container .upper-box-ui-auxilary label {
+  font-size: 14px;
+  color: #ffffff;
+}
+.page-color-container .comp-color-container .upper-box-ui-auxilary .color-text-tertiary {
+  color: #000000;
+}
+.page-color-container .comp-color-container .upper-box-ui-primary-hover {
+  width: 80%;
+  height: 100px;
+  background: #084179;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  border: 1px solid #DDDDDD;
+  margin-right: 20px;
+}
+.page-color-container .comp-color-container .upper-box-ui-primary-hover label {
+  font-size: 14px;
+  color: #ffffff;
+}
+.page-color-container .comp-color-container .upper-box-ui-primary-hover .color-text-tertiary {
+  color: #000000;
+}
+.page-color-container .comp-color-container .upper-box-ui-primary-light {
+  width: 80%;
+  height: 100px;
+  background: #137ADA;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  border: 1px solid #DDDDDD;
+  margin-right: 20px;
+}
+.page-color-container .comp-color-container .upper-box-ui-primary-light label {
+  font-size: 14px;
+  color: #ffffff;
+}
+.page-color-container .comp-color-container .upper-box-ui-primary-light .color-text-tertiary {
+  color: #000000;
+}
+.page-color-container .comp-color-container .upper-box-ui-rating {
+  width: 80%;
+  height: 100px;
+  background: #FEC72E;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  border: 1px solid #DDDDDD;
+  margin-right: 20px;
+}
+.page-color-container .comp-color-container .upper-box-ui-rating label {
+  font-size: 14px;
+  color: #ffffff;
+}
+.page-color-container .comp-color-container .upper-box-ui-rating .color-text-tertiary {
+  color: #000000;
+}
+.page-color-container .comp-color-container .upper-box-ui-hover {
+  width: 80%;
+  height: 100px;
+  background: #CCCCCC;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  border: 1px solid #DDDDDD;
+  margin-right: 20px;
+}
+.page-color-container .comp-color-container .upper-box-ui-hover label {
+  font-size: 14px;
+  color: #ffffff;
+}
+.page-color-container .comp-color-container .upper-box-ui-hover .color-text-tertiary {
+  color: #000000;
+}
+.page-color-container .comp-color-container .upper-box-ui-light {
+  width: 80%;
+  height: 100px;
+  background: #F5F5F5;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  border: 1px solid #DDDDDD;
+  margin-right: 20px;
+}
+.page-color-container .comp-color-container .upper-box-ui-light label {
+  font-size: 14px;
+  color: #ffffff;
+}
+.page-color-container .comp-color-container .upper-box-ui-light .color-text-tertiary {
+  color: #000000;
+}
+.page-color-container .comp-color-container .upper-box-gray-primary-bg {
+  width: 80%;
+  height: 100px;
+  background: #3F3F3F;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  border: 1px solid #DDDDDD;
+  margin-right: 20px;
+}
+.page-color-container .comp-color-container .upper-box-gray-primary-bg label {
+  font-size: 14px;
+  color: #ffffff;
+}
+.page-color-container .comp-color-container .upper-box-gray-primary-bg .color-text-tertiary {
+  color: #000000;
+}
+.page-color-container .comp-color-container .upper-box-gray-secondary-bg {
+  width: 80%;
+  height: 100px;
+  background: #B3B3B3;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  border: 1px solid #DDDDDD;
+  margin-right: 20px;
+}
+.page-color-container .comp-color-container .upper-box-gray-secondary-bg label {
+  font-size: 14px;
+  color: #ffffff;
+}
+.page-color-container .comp-color-container .upper-box-gray-secondary-bg .color-text-tertiary {
+  color: #000000;
+}
+.page-color-container .comp-color-container .upper-box-gray-tertiary-bg {
+  width: 80%;
+  height: 100px;
+  background: #EFEFEF;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  border: 1px solid #DDDDDD;
+  margin-right: 20px;
+}
+.page-color-container .comp-color-container .upper-box-gray-tertiary-bg label {
+  font-size: 14px;
+  color: #ffffff;
+}
+.page-color-container .comp-color-container .upper-box-gray-tertiary-bg .color-text-tertiary {
+  color: #000000;
+}
+.page-color-container .comp-color-container .upper-box-gray-fourth-bg {
+  width: 80%;
+  height: 100px;
+  background: #F5F5F5;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  border: 1px solid #DDDDDD;
+  margin-right: 20px;
+}
+.page-color-container .comp-color-container .upper-box-gray-fourth-bg label {
+  font-size: 14px;
+  color: #ffffff;
+}
+.page-color-container .comp-color-container .upper-box-gray-fourth-bg .color-text-tertiary {
+  color: #000000;
+}
+.page-color-container .comp-color-container .upper-box-gray-fifth-bg {
+  width: 80%;
+  height: 100px;
+  background: #FFFFFF;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  border: 1px solid #DDDDDD;
+  margin-right: 20px;
+}
+.page-color-container .comp-color-container .upper-box-gray-fifth-bg label {
+  font-size: 14px;
+  color: #ffffff;
+}
+.page-color-container .comp-color-container .upper-box-gray-fifth-bg .color-text-tertiary {
+  color: #000000;
+}
+.page-color-container .comp-color-container .lower-box {
+  margin-bottom: 67px;
+}
+.page-color-container .comp-color-container .lower-box .upper-text {
+  color: #1976D2;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+}
+.page-color-container .comp-color-container .lower-box p {
+  margin-bottom: 2px;
+  font-size: 12px;
+  color: #4E4E4E;
+}
+.page-color-container .comp-color-container .lower-box label {
+  font-weight: bold;
+  font-size: 12px;
+  color: #4E4E4E;
+}
+.page-color-container .comp-color-container .color-type {
+  color: 14px;
+  font-size: 18px;
+}

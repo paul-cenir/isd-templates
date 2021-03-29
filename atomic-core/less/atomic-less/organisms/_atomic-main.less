@@ -1,0 +1,89 @@
+@import "../../../less/style-guide/_variables";
+.atoms-container {
+  height: 100%;
+  opacity: 1;
+  transition: opacity .25s;
+}
+
+.atoms-main {
+  box-sizing: border-box;
+  padding: 40px;
+  padding-left: 240px;
+  width: 100%;
+  padding-top: 0;
+  background: @styleGuidePrimaryBackgroundColor;
+}
+
+.compWrap {
+    padding: 0 100px 40px 100px;
+    background: @styleGuideFourthBackgroundColor;
+
+}
+.content-editable {
+    min-height: 70px;
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid @styleGuidePrimaryBorderSize @styleGuidePrimaryBorderColor;
+    span,a {
+        font-size: @styleGuideFifthFontSize;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .comp-view-edit-container {
+        display: flex;
+        width: 80px;
+        justify-content: space-around;
+    }
+    .comp-text-container {
+        color:@styleGuidePrimaryHeadingColor;
+    }
+}
+.comp-header-container {
+    background: @styleGuideTertiaryBackgroundColor;
+    min-height: 180px;
+    display: flex !important;
+    align-items: center;
+    padding: 0 100px;
+    justify-content: space-between;
+    span,a {
+        font-size: @styleGuidePrimaryFontSize;
+        color:@styleGuidePrimaryHeadingColor;
+        font-weight: bold;
+    }
+    .comp-view-edit-container {
+        display: flex;
+        width: 170px;
+        justify-content: space-around;
+    }
+    .comp-text-container {
+        color:@styleGuidePrimaryHeadingColor;
+    }
+}
+
+
+code, kbd, pre, samp {
+  font-size: 14px;
+}
+
+pre[class*="language-"] {
+  padding: 2em;
+}
+
+.atoms-code-example {
+  position: relative;
+}
+
+.atoms-group {
+  margin-bottom: 50px;
+}
+
+@media (max-width: 823px) {
+  .atoms-main {
+    padding-left: 20px !important;
+    width: 100%;
+  }
+}
+
+
+

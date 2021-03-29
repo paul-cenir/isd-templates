@@ -1,0 +1,13 @@
+/*----------Gallery Style---------------- */
+.comp-community-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 40px 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 12px 0 12px;
+  justify-content: center;
+}
+.comp-community-container img {
+  max-width: 100%;
+}

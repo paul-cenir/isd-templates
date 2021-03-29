@@ -1,0 +1,49 @@
+.codeBlocks .nav-tabs-atomic {
+  border: 1px solid #dadada;
+  margin-top: 0;
+  background: #fff;
+}
+.codeBlocks .nav-tabs-atomic > li.active > a,
+.codeBlocks .nav-tabs-atomic > li.active > a:focus,
+.codeBlocks .nav-tabs-atomic > li.active > a:hover {
+  border: none;
+  border-bottom: 3px solid #00aff0;
+  color: inherit;
+}
+.codeBlocks .nav-atomic > li > a:focus,
+.codeBlocks .nav-atomic > li > a:hover {
+  background: none;
+  border: none;
+}
+.codeBlocks .nav-tabs-atomic > li > a {
+  margin-right: 0;
+  line-height: 1;
+  border: none;
+  border-radius: 0;
+  text-decoration: none;
+  font-size: 12px;
+  color: #929292;
+  font-weight: 500;
+}
+.tabForm {
+  display: inline-block;
+  margin-bottom: 0;
+}
+.tabForm label {
+  margin-right: 0;
+  line-height: 1;
+  border: none;
+  border-radius: 0;
+  text-decoration: none;
+  font-size: 12px;
+  color: #929292;
+  font-weight: 500;
+  padding: 10px 15px;
+  display: block;
+}
+.tabForm .formInput-check + label span {
+  width: 10px;
+  height: 10px;
+  top: 0;
+  border: 1px solid;
+}

@@ -1,0 +1,394 @@
+/* ===================== Background ======================== */
+/* ===================== HEADING Colors ======================== */
+/* ===================== TEXT Colors ======================== */
+/* ===================== PARAGRAPH Colors ======================== */
+/* ===================== LINK Colors ======================== */
+/* ===================== ICON Colors ======================== */
+/* ===================== TOOLTIP Colors ======================== */
+/* ===================== ALERTS Colors ======================== */
+/* ===================== BUTTONS Colors ======================== */
+/* ===================== BANNER Colors ======================== */
+/* ===================== MODAL colors ======================== */
+/* ===================== BORDER Colors ======================== */
+/* ===================== TEXT INPUT Colors ======================== */
+/* ===================== RADIO INPUT Colors ======================== */
+/* ===================== CHECKBOX INPUT Colors ======================== */
+/* ===================== DROPDOWN INPUT Colors ======================== */
+/* ===================== Pagination Colors ======================== */
+/* ===================== Heading Font Sizes ======================== */
+/* ===================== Text Font Sizes ======================== */
+/* ===================== Box Shadow ======================== */
+/* ===================== Font Families ======================== */
+/* ===================== MOBILE BREAKPOINT VARIABLES ======================== */
+/* ===================== Style Guidline Site ======================== */
+/* ===================== Background ======================== */
+/* ===================== HEADING Colors ======================== */
+/* ===================== TEXT Colors ======================== */
+/* ===================== PARAGRAPH Colors ======================== */
+/* ===================== LINK Colors ======================== */
+/* ===================== ICON Colors ======================== */
+/* ===================== Style Guidline Border Color ======================== */
+/* ===================== Style Guidline Border Color ======================== */
+/* ===================== Style Guidline Color ======================== */
+/* ===================== Heading Font Sizes ======================== */
+/* ===================== Brand Colors ======================== */
+/* ===================== Ui Colors ======================== */
+/* ===================== Color Scheme ======================== */
+.page-color-container .comp-color-container .color-list-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.page-color-container .comp-color-container .color-box {
+  width: 25%;
+}
+.page-color-container .comp-color-container .brand-box {
+  border-bottom: solid 4px #F4F7FB;
+  margin-bottom: 12px;
+}
+.page-color-container .comp-color-container .upper-box-up-main {
+  width: 200px;
+  height: 100px;
+  background: #A6CE39;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  border: 1px solid #B2B1B1;
+}
+.page-color-container .comp-color-container .upper-box-up-main label {
+  font-size: 14px;
+  color: #FFFFFF;
+}
+.page-color-container .comp-color-container .upper-box-up-main .color-text-tertiary {
+  color: #000000;
+}
+.page-color-container .comp-color-container .upper-box-up-second {
+  width: 200px;
+  height: 100px;
+  background: #126CB5;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  border: 1px solid #B2B1B1;
+}
+.page-color-container .comp-color-container .upper-box-up-second label {
+  font-size: 14px;
+  color: #FFFFFF;
+}
+.page-color-container .comp-color-container .upper-box-up-second .color-text-tertiary {
+  color: #000000;
+}
+.page-color-container .comp-color-container .upper-box-up-dark {
+  width: 200px;
+  height: 100px;
+  background: #333333;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  border: 1px solid #B2B1B1;
+}
+.page-color-container .comp-color-container .upper-box-up-dark label {
+  font-size: 14px;
+  color: #FFFFFF;
+}
+.page-color-container .comp-color-container .upper-box-up-dark .color-text-tertiary {
+  color: #000000;
+}
+.page-color-container .comp-color-container .upper-box-up-light {
+  width: 200px;
+  height: 100px;
+  background: #B2B1B1;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  border: 1px solid #B2B1B1;
+}
+.page-color-container .comp-color-container .upper-box-up-light label {
+  font-size: 14px;
+  color: #FFFFFF;
+}
+.page-color-container .comp-color-container .upper-box-up-light .color-text-tertiary {
+  color: #000000;
+}
+.page-color-container .comp-color-container .upper-box-ui-primary {
+  width: 200px;
+  height: 100px;
+  background: #A6CE39;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  border: 1px solid #B2B1B1;
+}
+.page-color-container .comp-color-container .upper-box-ui-primary label {
+  font-size: 14px;
+  color: #FFFFFF;
+}
+.page-color-container .comp-color-container .upper-box-ui-primary .color-text-tertiary {
+  color: #000000;
+}
+.page-color-container .comp-color-container .upper-box-ui-secondary {
+  width: 200px;
+  height: 100px;
+  background: #126CB5;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  border: 1px solid #B2B1B1;
+}
+.page-color-container .comp-color-container .upper-box-ui-secondary label {
+  font-size: 14px;
+  color: #FFFFFF;
+}
+.page-color-container .comp-color-container .upper-box-ui-secondary .color-text-tertiary {
+  color: #000000;
+}
+.page-color-container .comp-color-container .upper-box-ui-warning {
+  width: 200px;
+  height: 100px;
+  background: #E9A100;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  border: 1px solid #B2B1B1;
+}
+.page-color-container .comp-color-container .upper-box-ui-warning label {
+  font-size: 14px;
+  color: #FFFFFF;
+}
+.page-color-container .comp-color-container .upper-box-ui-warning .color-text-tertiary {
+  color: #000000;
+}
+.page-color-container .comp-color-container .upper-box-ui-error {
+  width: 200px;
+  height: 100px;
+  background: #FF0000;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  border: 1px solid #B2B1B1;
+}
+.page-color-container .comp-color-container .upper-box-ui-error label {
+  font-size: 14px;
+  color: #FFFFFF;
+}
+.page-color-container .comp-color-container .upper-box-ui-error .color-text-tertiary {
+  color: #000000;
+}
+.page-color-container .comp-color-container .upper-box-ui-primary-hover {
+  width: 200px;
+  height: 100px;
+  background: #028C42;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  border: 1px solid #B2B1B1;
+}
+.page-color-container .comp-color-container .upper-box-ui-primary-hover label {
+  font-size: 14px;
+  color: #FFFFFF;
+}
+.page-color-container .comp-color-container .upper-box-ui-primary-hover .color-text-tertiary {
+  color: #000000;
+}
+.page-color-container .comp-color-container .upper-box-ui-rating {
+  width: 200px;
+  height: 100px;
+  background: #F2C94C;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  border: 1px solid #B2B1B1;
+}
+.page-color-container .comp-color-container .upper-box-ui-rating label {
+  font-size: 14px;
+  color: #FFFFFF;
+}
+.page-color-container .comp-color-container .upper-box-ui-rating .color-text-tertiary {
+  color: #000000;
+}
+.page-color-container .comp-color-container .upper-box-gray-primary-bg {
+  width: 200px;
+  height: 100px;
+  background: #000000;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  border: 1px solid #B2B1B1;
+}
+.page-color-container .comp-color-container .upper-box-gray-primary-bg label {
+  font-size: 14px;
+  color: #FFFFFF;
+}
+.page-color-container .comp-color-container .upper-box-gray-primary-bg .color-text-tertiary {
+  color: #000000;
+}
+.page-color-container .comp-color-container .upper-box-gray-secondary-bg {
+  width: 200px;
+  height: 100px;
+  background: #333333;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  border: 1px solid #B2B1B1;
+}
+.page-color-container .comp-color-container .upper-box-gray-secondary-bg label {
+  font-size: 14px;
+  color: #FFFFFF;
+}
+.page-color-container .comp-color-container .upper-box-gray-secondary-bg .color-text-tertiary {
+  color: #000000;
+}
+.page-color-container .comp-color-container .upper-box-gray-tertiary-bg {
+  width: 200px;
+  height: 100px;
+  background: #757575;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  border: 1px solid #B2B1B1;
+}
+.page-color-container .comp-color-container .upper-box-gray-tertiary-bg label {
+  font-size: 14px;
+  color: #FFFFFF;
+}
+.page-color-container .comp-color-container .upper-box-gray-tertiary-bg .color-text-tertiary {
+  color: #000000;
+}
+.page-color-container .comp-color-container .upper-box-gray-fourth-bg {
+  width: 200px;
+  height: 100px;
+  background: #B2B1B1;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  border: 1px solid #B2B1B1;
+}
+.page-color-container .comp-color-container .upper-box-gray-fourth-bg label {
+  font-size: 14px;
+  color: #FFFFFF;
+}
+.page-color-container .comp-color-container .upper-box-gray-fourth-bg .color-text-tertiary {
+  color: #000000;
+}
+.page-color-container .comp-color-container .upper-box-gray-fifth-bg {
+  width: 200px;
+  height: 100px;
+  background: #E1E1E1;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  border: 1px solid #B2B1B1;
+}
+.page-color-container .comp-color-container .upper-box-gray-fifth-bg label {
+  font-size: 14px;
+  color: #FFFFFF;
+}
+.page-color-container .comp-color-container .upper-box-gray-fifth-bg .color-text-tertiary {
+  color: #000000;
+}
+.page-color-container .comp-color-container .upper-box-cs-img-bg {
+  width: 200px;
+  height: 100px;
+  background: #F2EFEA;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  border: 1px solid #B2B1B1;
+}
+.page-color-container .comp-color-container .upper-box-cs-img-bg label {
+  font-size: 14px;
+  color: #FFFFFF;
+}
+.page-color-container .comp-color-container .upper-box-cs-img-bg .color-text-tertiary {
+  color: #000000;
+}
+.page-color-container .comp-color-container .upper-box-cs-bg-primary {
+  width: 200px;
+  height: 100px;
+  background: #F8F7F5;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  border: 1px solid #B2B1B1;
+}
+.page-color-container .comp-color-container .upper-box-cs-bg-primary label {
+  font-size: 14px;
+  color: #FFFFFF;
+}
+.page-color-container .comp-color-container .upper-box-cs-bg-primary .color-text-tertiary {
+  color: #000000;
+}
+.page-color-container .comp-color-container .upper-box-cs-bg-secondary {
+  width: 200px;
+  height: 100px;
+  background: #FFFFFF;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  border: 1px solid #B2B1B1;
+}
+.page-color-container .comp-color-container .upper-box-cs-bg-secondary label {
+  font-size: 14px;
+  color: #FFFFFF;
+}
+.page-color-container .comp-color-container .upper-box-cs-bg-secondary .color-text-tertiary {
+  color: #000000;
+}
+.page-color-container .comp-color-container .lower-box {
+  margin-bottom: 67px;
+}
+.page-color-container .comp-color-container .lower-box .upper-text {
+  color: #1976D2;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+}
+.page-color-container .comp-color-container .lower-box p {
+  margin-bottom: 2px;
+  font-size: 12px;
+  color: #4E4E4E;
+}
+.page-color-container .comp-color-container .lower-box label {
+  font-weight: bold;
+  font-size: 12px;
+  color: #4E4E4E;
+}
+.page-color-container .comp-color-container .color-type {
+  color: #000000;
+  font-size: 22px;
+}

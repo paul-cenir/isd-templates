@@ -1,0 +1,29 @@
+/* CSS Document */
+.copyBtn {
+  position: absolute;
+  top: -33px;
+  right: 10px;
+  z-index: 10;
+  display: block;
+  padding: 5px 8px;
+  font-size: 12px;
+  color: #929292;
+  font-weight: 500;
+  cursor: pointer;
+}
+.copyBtn-edit {
+  right: 45px;
+  display: none;
+}
+.nav-tabs-atomic > li.expandItem {
+  float: right;
+  position: relative;
+  right: 68px;
+}
+.expandBtn {
+  padding: 5px 8px;
+  font-size: 12px;
+  color: #929292;
+  font-weight: 300;
+  cursor: pointer;
+}

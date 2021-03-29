@@ -1,0 +1,153 @@
+/* ===================== Background ======================== */
+/* ===================== HEADING Colors ======================== */
+/* ===================== TEXT Colors ======================== */
+/* ===================== PARAGRAPH Colors ======================== */
+/* ===================== LINK Colors ======================== */
+/* ===================== ICON Colors ======================== */
+/* ===================== TOOLTIP Colors ======================== */
+/* ===================== ALERTS Colors ======================== */
+/* ===================== BUTTONS Colors ======================== */
+/* ===================== BANNER Colors ======================== */
+/* ===================== MODAL colors ======================== */
+/* ===================== BORDER Colors ======================== */
+/* ===================== TEXT INPUT Colors ======================== */
+/* ===================== RADIO INPUT Colors ======================== */
+/* ===================== CHECKBOX INPUT Colors ======================== */
+/* ===================== DROPDOWN INPUT Colors ======================== */
+/* ===================== Pagination Colors ======================== */
+/* ===================== Heading Font Sizes ======================== */
+/* ===================== Text Font Sizes ======================== */
+/* ===================== Box Shadow ======================== */
+/* ===================== Font Families ======================== */
+/* ===================== MOBILE BREAKPOINT VARIABLES ======================== */
+body {
+  background: #FFFFFF;
+  font-family: 'Lato', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #333333;
+  font-size: 14px;
+  letter-spacing: 0.25px;
+}
+a {
+  color: #126CB5;
+  letter-spacing: 0.25px;
+  text-decoration: none;
+}
+a:hover {
+  color: #03A74F;
+}
+a:focus,
+a:active,
+a:active:hover,
+a:active:focus {
+  color: #126CB5;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+  cursor: pointer;
+}
+p {
+  color: #333333;
+  line-height: 150%;
+}
+p a {
+  color: #757575;
+  text-decoration: underline;
+  font-style: italic;
+  font-family: "PT Serif", Arial, serif;
+}
+p a:hover {
+  color: #757575;
+}
+p a:focus,
+p a:active,
+p a:active:hover,
+p a:active:focus {
+  color: #757575;
+}
+p a:hover,
+p a:focus {
+  text-decoration: none;
+  font-weight: normal;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #333333;
+  font-weight: bold;
+}
+h1 {
+  font-size: 42px;
+}
+h2 {
+  font-size: 32px;
+}
+h3 {
+  font-size: 28px;
+}
+h4 {
+  font-size: 24px;
+}
+h5 {
+  font-size: 22px;
+}
+h6 {
+  font-size: 18px;
+}
+ul,
+ol {
+  padding: 0;
+  line-height: 175%;
+}
+.container {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+button {
+  border-radius: 0;
+  padding: 16px;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+  line-height: 1;
+  font-family: 'Lato', Arial, sans-serif;
+  color: #FFFFFF;
+  background-color: #03A74F;
+  border-color: #03A74F;
+  border: none;
+}
+button:hover,
+button:focus,
+button:active,
+button:active:hover,
+button:active:focus {
+  outline: none;
+  color: #FFFFFF;
+  background-color: #028C42;
+  border-color: #028C42;
+}
+button:disabled {
+  color: #FFFFFF;
+  background-color: #B2B1B1;
+  border-color: #B2B1B1;
+}
+button:disabled:hover,
+button:disabled:focus {
+  outline: none;
+  color: #FFFFFF;
+  background-color: #B2B1B1;
+  border-color: #B2B1B1;
+}
+@media (max-width: 1279px) {
+  .container {
+    width: 1170px;
+    max-width: 100%;
+  }
+}
+/* FILE PATH : assets/components/buttons/site-btn-primary.less */
+/* NOTE: This was already imported in global-styles.less */

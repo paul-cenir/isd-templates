@@ -1,0 +1,29 @@
+/*----------Gallery Style---------------- */
+.comp-community-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 40px 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 12px 0 12px;
+  justify-content: center;
+}
+.comp-community-container img {
+  max-width: 100%;
+}
+/* less/component/_galleryslider.less */
+/* already included in global-style.less*/
+/* Reminder: less file already imported in global.less */
+/* File path: less/components/checkboxes/site-custom-checkbox.less */
+/* already included in global-style.less*/
+/* less/component/_headings.less */
+/* Reminder: less file already imported in global.less */
+/* File path: less/components/form-groups/site-form-group.less */
+/* already included in global-style.less*/
+/* already included in global-style.less*/
+/* less/component/_modal.less */
+/* less/component/_paragraphs.less */
+/* Reminder: less file already imported in global.less */
+/* File path: less/components/radios/site-custom-radio.less */
+/* Reminder: less file already imported in global.less */
+/* File path: less/components/toggles/site-toggle-switch.less */

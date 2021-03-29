@@ -1,0 +1,27 @@
+/* less/global/_header.less */
+.global-site-header-container {
+  border: solid 1px #dddddd;
+  padding: 20px;
+}
+.global-site-header-container img {
+  width: 175px;
+  height: 43px;
+  cursor: pointer;
+}
+.comp-header {
+  display: flex;
+  height: 70px;
+  align-items: center;
+  justify-content: space-between;
+}
+.comp-header .header-right {
+  display: flex;
+  align-items: center;
+}
+.comp-header .header-right a,
+.comp-header .header-right p {
+  margin-right: 20px;
+}
+.comp-header p {
+  margin: 0;
+}

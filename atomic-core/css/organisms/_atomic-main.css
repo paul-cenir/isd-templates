@@ -1,0 +1,95 @@
+/* ===================== Style Guidline Site ======================== */
+/* ===================== Background ======================== */
+/* ===================== HEADING Colors ======================== */
+/* ===================== TEXT Colors ======================== */
+/* ===================== PARAGRAPH Colors ======================== */
+/* ===================== LINK Colors ======================== */
+/* ===================== ICON Colors ======================== */
+/* ===================== Style Guidline Border Color ======================== */
+/* ===================== Style Guidline Border Color ======================== */
+/* ===================== Style Guidline Color ======================== */
+/* ===================== Heading Font Sizes ======================== */
+/* ===================== Brand Colors ======================== */
+/* ===================== Ui Colors ======================== */
+/* ===================== Color Scheme ======================== */
+.atoms-container {
+  height: 100%;
+  opacity: 1;
+  transition: opacity 0.25s;
+}
+.atoms-main {
+  box-sizing: border-box;
+  padding: 40px;
+  padding-left: 240px;
+  width: 100%;
+  padding-top: 0;
+  background: #E5E5E5;
+}
+.compWrap {
+  padding: 0 100px 40px 100px;
+  background: #ffffff;
+}
+.content-editable {
+  min-height: 70px;
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: solid 3px #F4F7FB;
+}
+.content-editable span,
+.content-editable a {
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.content-editable .comp-view-edit-container {
+  display: flex;
+  width: 80px;
+  justify-content: space-around;
+}
+.content-editable .comp-text-container {
+  color: #333333;
+}
+.comp-header-container {
+  background: #F4F7FB;
+  min-height: 180px;
+  display: flex !important;
+  align-items: center;
+  padding: 0 100px;
+  justify-content: space-between;
+}
+.comp-header-container span,
+.comp-header-container a {
+  font-size: 60px;
+  color: #333333;
+  font-weight: bold;
+}
+.comp-header-container .comp-view-edit-container {
+  display: flex;
+  width: 170px;
+  justify-content: space-around;
+}
+.comp-header-container .comp-text-container {
+  color: #333333;
+}
+code,
+kbd,
+pre,
+samp {
+  font-size: 14px;
+}
+pre[class*="language-"] {
+  padding: 2em;
+}
+.atoms-code-example {
+  position: relative;
+}
+.atoms-group {
+  margin-bottom: 50px;
+}
+@media (max-width: 823px) {
+  .atoms-main {
+    padding-left: 20px !important;
+    width: 100%;
+  }
+}

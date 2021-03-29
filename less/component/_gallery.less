@@ -1,0 +1,26 @@
+@sectionName: community;
+@columnNumber: 2;
+@rowGap: 40px;
+@columGap: 40px;
+@containerMaxWidth: 1200px;
+@paddingTop: 0; 
+@paddingBottom: 0;
+@paddingLeft: 12px;
+@paddingRight: 12px;
+
+
+
+/*----------Gallery Style---------------- */ 
+.comp-@{sectionName}-container {
+    display: grid;
+    grid-template-columns: repeat(@columnNumber, 1fr);
+    grid-gap: @rowGap @columGap;
+    max-width: @containerMaxWidth;
+    margin:0 auto;
+    padding: @paddingTop @paddingRight @paddingBottom @paddingLeft;
+    justify-content: center;
+    img {
+        max-width: 100%;
+    }
+   
+}

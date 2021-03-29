@@ -1,0 +1,11 @@
+.site-secondary-link-italic {
+    .link-color-hover-focus(@brandSecondaryLinkColor, @brandSecondaryLinkHoverColor, @brandSecondaryLinkColor);
+    text-decoration: underline;
+    font-style: italic;
+    font-family: @brandSecondaryFontFamily;
+    &:hover,
+    &:focus {
+        text-decoration: none;
+        font-weight: normal;
+    }
+}

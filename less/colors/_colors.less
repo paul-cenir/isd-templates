@@ -1,0 +1,119 @@
+@import "../global/_variables.less";
+
+.upper-box(@Bgcolor) {
+    width: 80%;
+    height: 100px;
+    background: @Bgcolor;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 15px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    border: 1px solid #DDDDDD;
+    margin-right: 20px;
+    label {
+        font-size: @brandPrimaryTxtFontSize;
+        color:@brandPrimaryInputLabelTxtColor;
+    }
+    .color-text-tertiary {
+        color:@style-guide-tertiary-color;
+    }
+}
+
+.page-color-container {
+    .comp-color-container {
+        .color-list-container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .color-box {
+            width: 25%;
+        }
+        .brand-box {
+            border-bottom: solid 4px #DDDDDD;
+            margin-bottom: 12px;
+        }
+        .upper-box-up-main {
+            .upper-box(@brandPrimaryColor);
+        }
+        .upper-box-up-second {
+            .upper-box(@brandSecondaryColor);
+        }
+        .upper-box-up-dark {
+            .upper-box(@brandPrimaryTypeColor);
+            label {
+                color: @styleGuidePrimaryTxtColor;
+            }
+        }
+        .upper-box-up-light {
+            .upper-box(@brandSecondaryTypeColor);
+        }
+        .upper-box-ui-primary {
+            .upper-box(@uiPrimaryColor);
+        }
+        .upper-box-ui-secondary {
+            .upper-box(@uiSecondaryColor);
+        }
+        .upper-box-ui-error {
+            .upper-box(@uiErrorColor);
+        }
+        .upper-box-ui-auxilary {
+            .upper-box(@uiAuxilaryColor);
+        }
+        .upper-box-ui-primary-hover {
+            .upper-box(@uiPrimaryHoverColor);
+        }
+        .upper-box-ui-primary-light {
+            .upper-box(@uiPrimaryLightColor);
+        }
+        .upper-box-ui-rating {
+            .upper-box(@uiRatingColor);
+        }
+        .upper-box-ui-hover {
+            .upper-box(@uiHoverColor);
+        }
+        .upper-box-ui-light {
+            .upper-box(@uiLightColor);
+        }
+
+        .upper-box-gray-primary-bg {
+            .upper-box(@PrimaryColorGray);
+        }
+        .upper-box-gray-secondary-bg {
+            .upper-box(@SecondaryColorGray);
+        }
+        .upper-box-gray-tertiary-bg {
+            .upper-box(@TertiaryColorGray);
+        }
+        .upper-box-gray-fourth-bg {
+            .upper-box(@FourthColorGray);
+        }
+        .upper-box-gray-fifth-bg {
+            .upper-box(@FifthColorGray);
+        }
+        .lower-box {
+            margin-bottom: 67px;
+            .upper-text {
+                color:@style-guide-primary-color;
+                font-style: normal;
+                font-weight: 500;
+                font-size: @brandSecondaryTxtFontSize;
+            }
+            p {
+                margin-bottom: 2px;
+                font-size: 12px;
+                color:@style-guide-secondary-color;
+            }
+            label {
+                font-weight: bold;
+                font-size: 12px;
+                color:@style-guide-secondary-color;
+            }
+           
+        }
+        .color-type {
+            color:@brandPrimaryTxtFontSize;
+            font-size: @brandHeading5FontSize;
+        }
+    }
+}

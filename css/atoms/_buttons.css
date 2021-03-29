@@ -1,0 +1,44 @@
+/* less/atoms/_buttons.less */
+.btn {
+  display: inline-block;
+  background: #ccc;
+  padding: 10px 0;
+  width: 142px;
+  color: #fff;
+  opacity: 1;
+  cursor: pointer;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+  position: relative;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+}
+/* line 21, ../scss/atoms/_buttons.scss */
+.btn:hover {
+  color: #fff;
+  text-decoration: none;
+}
+/* line 26, ../scss/atoms/_buttons.scss */
+.btn:active {
+  top: 1px;
+}
+/* line 30, ../scss/atoms/_buttons.scss */
+.site-btn-primary {
+  background: #00aff0;
+}
+/* line 34, ../scss/atoms/_buttons.scss */
+.site-btn-secondary {
+  background: #3d4a57;
+}
+/* line 38, ../scss/atoms/_buttons.scss */
+.site-btn-tirtiary {
+  background: #5583b2;
+}
+/* line 46, ../scss/atoms/_buttons.scss */
+.btnGroup {
+  text-align: center;
+  margin-bottom: 100px;
+}

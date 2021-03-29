@@ -1,0 +1,98 @@
+.site-dropdown {
+    margin-bottom: 24px;
+    .dropdown-toggle {
+        border-radius: 0;
+        padding: 12px 16px;
+        font-size: 16px;
+        line-height: 1;
+        display: table;
+        min-width: 400px; // TO BE DELETED
+        outline: none;
+        box-shadow: none;
+        position: relative;
+        color: @brandPrimaryDropdownToggleTxtColor;
+        background: @brandPrimaryDropdownToggleBgColor;
+        border: 2px solid @brandPrimaryDropdownToggleBorderColor;
+        &:hover,
+        &:focus,
+        &:active,
+        &:active:hover,
+        &:active:focus {
+            color: @brandPrimaryDropdownToggleTxtColor;
+            background-color: @brandPrimaryDropdownToggleBgColor;
+            border-color: @brandPrimaryDropdownToggleBorderColor;
+            outline: none;
+            box-shadow: none;
+            outline: 0;
+        }
+        &.active {
+            color: @brandPrimaryDropdownToggleActiveTxtColor;
+            background-color: @brandPrimaryDropdownToggleActiveBgColor;
+            border: 2px solid @brandPrimaryDropdownToggleActiveBorderColor;
+            &:hover,
+            &:focus,
+            &:active,
+            &:active:hover,
+            &:active:focus {
+                color: @brandPrimaryDropdownToggleActiveTxtColor;
+                background-color: @brandPrimaryDropdownToggleActiveBgColor;
+                border-color: @brandPrimaryDropdownToggleActiveBorderColor;
+            }
+        }
+        .check-circle-icon {
+            position: absolute;
+            right: 32px;
+            top: -8px;
+            background: white;
+        }
+    }
+    .dropdown-toggle-label,
+    .dropdown-toggle-icon {
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .dropdown-toggle-label {
+        float: left;
+    }
+    .dropdown-toggle-icon {
+        float: right;
+        font-size: 24px;
+        line-height: 16px;
+    }
+    .check-circle-icon {
+        color: @brandFourthIconColor;
+        font-size: 18px;
+    }
+    .dropdown-menu {
+        min-width: 400px;
+        margin-top: -1px;
+        border-radius: 0;
+        box-shadow: none;
+        border: none;
+        padding: 0;
+        a {
+            padding: 12px 16px;
+            line-height: 1;
+            font-size: 16px;
+            color: @brandPrimaryDropdownListTxtColor;
+            background: @brandPrimaryDropdownListBgColor;
+            border: 1px solid @brandPrimaryDropdownListBorderColor;
+            border-width: 0 1px 1px;
+            &:hover,
+            &:focus,
+            &:active,
+            &:active:hover,
+            &:active:focus {
+                color: @brandPrimaryDropdownListHoverTxtColor;
+                background-color: @brandPrimaryDropdownListHoverBgColor;
+                border-color: @brandPrimaryDropdownListHoverBorderColor;
+                outline: none;
+                box-shadow: none;
+                outline: 0;
+            }
+        }
+        .check-circle-icon {
+            float: right;
+        }
+    }
+}

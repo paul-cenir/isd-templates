@@ -1,0 +1,28 @@
+.site-btn-link-display {
+    background: none;
+    border: none;
+    font-weight: normal;
+    cursor: unset;
+    &:hover,
+    &:focus,
+    &:active,
+    &:active:hover,
+    &:active:focus {
+        outline: none;
+        background: none;
+        border: none;
+        font-weight: normal;
+    }
+    &:disabled {
+        background: none;
+        border: none;
+        font-weight: normal;
+        &:hover,
+        &:focus {
+            outline: none;
+            background: none;
+            border: none;
+            font-weight: normal;
+        }
+    }
+}

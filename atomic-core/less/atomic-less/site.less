@@ -1,0 +1,138 @@
+//@import "normalize";
+@import "_prism";
+@import "_spectrum-picker";
+@import "../../../less/style-guide/_variables.less";
+
+#atomsWrap {
+  @import "./utilities/_utilities";
+  @import "./atoms/_atoms";
+  @import "./molecules/_molecules";
+  @import "./organisms/_organisms";
+  @import "_cleanup";
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+    background: #E5E5E5;
+}
+//nav-atomic
+.nav-atomic {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+.nav-atomic:after {
+  clear: both;
+}
+.nav-tabs-atomic > li {
+  float: left;
+  margin-bottom: -1px;
+}
+.nav-atomic > li {
+  position: relative;
+  display: block;
+}
+.nav-atomic:before, .nav-atomic:after {
+  content: " ";
+  display: table;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.nav-atomic > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+}
+
+
+/* ===================== CUSTOM DESIGN STYLE GUIDE ======================== */
+
+/* ===================== TYPOGRAPHY DESIGN ======================== */
+.comp-typography-container {
+    .comp-typography-header {
+        display: flex;
+        border-bottom: solid @styleGuidePrimaryBorderSize @styleGuidePrimaryBorderColor;
+        color:@styleGuideTertiaryColor;
+        margin-bottom: 12px;
+        label {
+            font-size: @styleGuideSixthFontSize;
+            font-weight: bold;
+        }
+        .t-head:nth-child(1) {
+            width: 20%;
+        }
+        .t-head:nth-child(2) {
+            width: 50%;
+        }
+        .t-head:nth-child(3) {
+            width: 30%;
+        }
+    }
+    .comp-typography-row {
+        display: flex;
+        align-items: center;
+        margin-bottom: 24px;
+        p {
+            margin: 0;
+        }
+        .primary-font {
+            font-family: @brandPrimaryFontFamily;
+            font-weight: normal;
+            font-size: @styleGuideSecondaryFontSize;
+            color:@styleGuideTertiaryColor;
+        }
+        .secondary-font {
+            font-family: @brandPrimaryFontFamily;
+            font-style: italic;
+            font-weight: normal;
+            font-size: @styleGuideSecondaryFontSize;
+            color:@styleGuideTertiaryColor;
+        }
+        .t-data:nth-child(1) {
+            width: 20%;
+        }
+        .t-data:nth-child(2) {
+            width: 50%;
+        }
+        .t-data:nth-child(3) {
+            width: 30%;
+        }
+        .t-data-desc {
+            color:@styleGuidePrimaryColor;
+            font-size: @styleGuideEighthFontSize;
+            font-weight: bold;
+        }
+        .t-data-list {
+            padding-left: 18px;
+            color:@styleGuideSecondaryColor;
+            font-size: @styleGuideSeventhFontSize;
+            li {
+                line-height: 16px;
+            }
+        }
+        .spec-container {
+            display: flex;
+            align-items: center;
+            .spec-attributes {
+                min-width: 190px;
+            }
+        }
+        .font-value {
+            margin-top: 30px;
+            p {
+                margin: 0;
+                color:@styleGuidePrimaryColor;
+                font-size: @styleGuideSeventhFontSize;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+/* ===================== COLOR DESIGN ======================== */

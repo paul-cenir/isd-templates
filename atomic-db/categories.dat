@@ -1,0 +1,26 @@
+[
+    {
+        "category": "readme",
+        "order": 5
+    },
+    {
+        "category": "jsExample",
+        "order": 3
+    },
+    {
+        "category": "global",
+        "order": 2
+    },
+    {
+        "category": "colors",
+        "order": 0
+    },
+    {
+        "category": "component",
+        "order": 1
+    },
+    {
+        "category": "style-guide",
+        "order": 6
+    }
+]

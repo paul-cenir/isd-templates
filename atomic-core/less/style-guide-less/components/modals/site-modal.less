@@ -1,0 +1,44 @@
+.site-modal {
+    .modal-content {
+        .box-shadow(@brandPrimaryBoxShadow);
+        .border-radius(0);
+        padding-bottom: 40px;
+        border-color: @brandPrimaryBorderColor;
+    }
+    .modal-header {
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+    .modal-close-btn {
+        border-radius: 50%;
+        .width-height(24px, 24px);
+        opacity: 1;
+        line-height: 24px;
+        vertical-align: middle;
+        font-weight: normal;
+        color: @brandPrimaryModalCloseTxtColor;
+        background: @brandPrimaryModalCloseBgColor;
+        &:hover {
+            color: @brandPrimaryModalCloseTxtHoverColor;
+            background: @brandPrimaryModalCloseBgHoverColor;
+        }
+    }
+    .modal-title {
+        border-bottom: 1px solid @brandPrimaryBorderColor;
+        padding-bottom: 16px;
+        margin: 24px 24px 0;
+    }
+    .modal-body {
+        padding: 24px 40px 0;
+
+        button {
+            width: 100%;
+        }
+    }
+}
+.modal-backdrop {
+    background-color: @brandPrimaryModalOverlayBackground;
+    &.in {
+        opacity: 1;
+    }
+}
