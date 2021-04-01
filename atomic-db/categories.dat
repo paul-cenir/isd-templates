@@ -22,5 +22,9 @@
     {
         "category": "style-guide",
         "order": 6
+    },
+    {
+        "category": "ISD-GUIDE",
+        "order": 7
     }
 ]

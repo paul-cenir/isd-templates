@@ -214,5 +214,45 @@
         "backgroundColor": "",
         "order": 12,
         "has_js": "false"
+    },
+    {
+        "component": "APPLICATIONS",
+        "category": "ISD-GUIDE",
+        "description": "",
+        "backgroundColor": "",
+        "order": -26,
+        "has_js": "false"
+    },
+    {
+        "component": "WpSetup",
+        "category": "ISD-GUIDE",
+        "description": "",
+        "backgroundColor": "",
+        "order": -27,
+        "has_js": "false"
+    },
+    {
+        "component": "VSCodeCodingGuidelines",
+        "category": "ISD-GUIDE",
+        "description": "",
+        "backgroundColor": "",
+        "order": -28,
+        "has_js": "false"
+    },
+    {
+        "component": "media-query",
+        "category": "global",
+        "description": "",
+        "backgroundColor": "",
+        "order": -29,
+        "has_js": "false"
+    },
+    {
+        "component": "widget-setup",
+        "category": "ISD-GUIDE",
+        "description": "",
+        "backgroundColor": "",
+        "order": -30,
+        "has_js": "false"
     }
 ]
