@@ -8,6 +8,8 @@ $compSelect = $components->select(array());
 $categories = $categories->select(array());
 $settings = $settings->select(array());
 
+
+
 ?>
 <body id="atomsWrap" class="atoms" xmlns="http://www.w3.org/1999/html">
 <div id="search-list" class="searchWindow">
