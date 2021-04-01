@@ -398,7 +398,7 @@
 /*----------Gallery Style---------------- */
 .comp-community-container {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(8, 1fr);
   grid-gap: 40px 40px;
   max-width: 1200px;
   margin: 0 auto;
