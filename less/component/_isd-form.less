@@ -1,0 +1,201 @@
+.site-global-title.center {
+    text-align: center;
+}
+
+.site-global-title h2 {
+    font-size: 26px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #a3a3a3;
+}
+
+.site-global-title h3 {
+    font-size: 75px;
+    font-family: 'Unna', serif;
+    text-transform: uppercase;
+    color: #3d5068;
+}
+
+
+.hp-form {
+    padding: 103px 0 118px 0;
+    position: relative;
+    background: #152238;
+    font-size: 0;
+}
+
+.hp-form::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(../img/contact-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    filter: grayscale(1);
+    opacity: .12;
+    pointer-events: none;
+}
+
+.safari-true .hp-form::before{
+    background-attachment: scroll;
+}
+
+.hp-form .site-global-title.center {
+    text-align: center;
+    margin: 0 0 -38px;
+}
+
+.hp-form .site-global-title h3 {
+    color: #fff;
+}
+.form-holder {
+    max-width: 840px;
+    margin: 0 auto;
+    border-left: 1px solid rgba(255,255,255, .08);
+    border-right: 1px solid rgba(255,255,255, .08);
+    width: 100%;
+    padding: 95px 54px 0;
+    position: relative;
+    font-size:0;
+}
+
+.form-holder::after,
+.form-holder::before {
+    content: '';
+    position: absolute;
+    width: 36%;
+    height: 1px;
+    background: rgba(255,255,255, .08);
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+.form-holder::before{
+    left: initial;
+    right: 0;
+}
+.bottom-line{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+}
+
+.bottom-line::after,
+.bottom-line::before{
+    content: '';
+    position: absolute;
+    width: 44.4%;
+    height: 1px;
+    background: rgba(255,255,255, .08);
+    bottom: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+.bottom-line::before{
+    left: initial;
+    right: 0;
+}
+
+
+.form-md {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+    margin: 0 0 44px;
+}
+
+.form-lg {
+    width: 100%;
+    padding: 0;
+}
+
+.form-md.pad-right{
+    padding-right: 15px;
+}
+
+.form-md.pad-left{
+    padding-left: 15px;
+} 
+
+.form-md input,
+.form-lg textarea{
+    width: 100%;
+    background: transparent;
+    height: 35px;
+    border: none;
+    border-bottom: 1px solid #a5a9b1;
+    font-size: 13px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    resize: none;
+    overflow: hidden;
+}
+
+.form-lg textarea {
+    height: 88px;
+}
+
+.form-btn {
+    text-align: center;
+    margin: 59px 0 0;
+}
+
+.form-btn input{
+    width: 37px;
+    height: 33px;
+    background: url(../img/send-icon.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    margin: 0 0 -20px;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.form-btn input:hover{
+    opacity: .6;
+}
+
+.form-holder div.wpcf7-response-output {
+    font-size: 15px;
+    text-align: center;
+    position: absolute;
+    bottom: -59px;
+    margin: 0;
+    width: 100%;
+    left: 0;
+    color: #fff;
+}
+
+.form-holder span.wpcf7-not-valid-tip {
+    font-size: 15px;
+}
+
+.form-holder .wpcf7-form-control-wrap {
+    display: block;
+}
+
+.form-holder div.wpcf7 .ajax-loader {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -19px;
+}
+
+.form-holder .use-floating-validation-tip .wpcf7-not-valid-tip {
+    position: absolute;
+    top: 0;
+    width: 180px;
+}
