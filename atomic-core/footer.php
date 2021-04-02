@@ -138,6 +138,8 @@ if (file_exists($filename)) {
   //include "clientmode.php" 
 ?>
 <script src="atomic-core/js/min/compiled.min.js"></script>
+
+<script type="text/javascript" src="//resources.agentimage.com/libraries/js/slick.min.js?ver=5.7"></script>
 <script>
     var monkeyList = new List('search-list', {
         valueNames: ['name'],

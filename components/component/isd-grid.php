@@ -1,13 +1,13 @@
 <?php 
-	$sectionName = 'community';
-	$noGalItem = 7;
+	$sectionName = 'grid';
+	$noGalItem = 6;
 ?>
 
 
 <div class="comp-<?= $sectionName ?>-container">
 	<?php for ($x = 1; $x <= $noGalItem; $x++) { ?>
-		<div class="item-<?= $sectionName ?>-<?= $x ?>">
+		<a href="#" class="item-<?= $sectionName ?>-<?= $x ?>" >
 			<img src="https://placeimg.com/640/480/any" alt="">
-		</div>
+		</a>
 	<?php } ?>
 </div>

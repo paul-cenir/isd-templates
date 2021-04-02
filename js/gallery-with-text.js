@@ -1,0 +1,1 @@
+/* js/gallery-with-text.js */

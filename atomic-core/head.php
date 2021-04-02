@@ -18,6 +18,8 @@
     <link rel="stylesheet" type="text/css" href="atomic-core/libraries/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="atomic-core/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="//malihu.github.io/custom-scrollbar/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" type="text/css" href="//resources.agentimage.com/libraries/css/slick.min.css?ver=5.7"/>
+    <link rel="stylesheet" type="text/css" href="//resources.agentimage.com/fonts/agentimage.font.icons.css?ver=5.7"/>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="atomic-core/css/site.css">
     <?php

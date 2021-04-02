@@ -1,11 +1,11 @@
 /*----------Gallery Style---------------- */
 .comp-community-container {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-gap: 40px 40px;
-  max-width: 1200px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 12px 12px;
+  max-width: none;
   margin: 0 auto;
-  padding: 0 12px 0 12px;
+  padding: 0 0 0 0;
   justify-content: center;
 }
 .comp-community-container img {
