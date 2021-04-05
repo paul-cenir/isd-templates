@@ -398,8 +398,8 @@
 /*----------Gallery Style---------------- */
 .comp-grid-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 12px 12px;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 12px 0;
   max-width: none;
   margin: 0 auto;
   padding: 0 0 0 0;
@@ -520,8 +520,8 @@
 /*----------Gallery Style---------------- */
 .comp-gallery-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 12px 12px;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 0 0;
   max-width: none;
   margin: 0 auto;
   padding: 0 0 0 0;
@@ -1154,6 +1154,7 @@ footer {
   }
 }
 /* Galaxy S5(portrait) | iPod Touch(landscape) | iPod Touch(portrait) */
+/* less/global/_codingstandard.less */
 /* less/jsExample/_clickme.less */
 .click {
   cursor: pointer;
@@ -1170,6 +1171,6 @@ footer {
 /* less/readme/_settings.less */
 /* less/readme/_sidebars.less */
 /* less/ISD-GUIDE/_APPLICATIONS.less */
-/* less/ISD-GUIDE/_WpSetup.less */
-/* less/ISD-GUIDE/_VSCodeCodingGuidelines.less */
 /* less/ISD-GUIDE/_widget-setup.less */
+/* less/ISD-GUIDE/_VSCodeCodingGuidelines.less */
+/* less/ISD-GUIDE/_WpSetup.less */

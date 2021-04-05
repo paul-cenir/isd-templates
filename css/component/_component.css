@@ -1,8 +1,8 @@
 /*----------Gallery Style---------------- */
 .comp-grid-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 12px 12px;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 12px 0;
   max-width: none;
   margin: 0 auto;
   padding: 0 0 0 0;
@@ -123,8 +123,8 @@
 /*----------Gallery Style---------------- */
 .comp-gallery-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 12px 12px;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 0 0;
   max-width: none;
   margin: 0 auto;
   padding: 0 0 0 0;

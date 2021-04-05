@@ -1,6 +1,6 @@
 <?php 
 	$sectionName = 'grid';
-	$noGalItem = 6;
+	$noGalItem = 5;
 ?>
 
 

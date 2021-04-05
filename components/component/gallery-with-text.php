@@ -1,6 +1,6 @@
 <?php 
 	$sectionName = 'gallery';
-	$noGalItem = 6;
+	$noGalItem = 5;
 ?>
 
 

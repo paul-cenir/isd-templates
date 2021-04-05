@@ -1,6 +1,6 @@
 $( document ).ready(function() {
     var selector = "community";
-    var arrows = true;
+    var arrows = false;
     var dots = true;
     
     
